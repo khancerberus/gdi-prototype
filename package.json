@@ -1,0 +1,16 @@
+{
+  "name": "gdi-prototype",
+  "version": "1.0.0",
+  "description": "A google drive integration prototype",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khancerberus",
+  "license": "ISC",
+  "dependencies": {
+    "@googleapis/drive": "^8.4.0"
+  }
+}
